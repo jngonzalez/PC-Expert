@@ -58,7 +58,7 @@ form.addEventListener('submit', function(e) {
 	}
 
 	if(consultaValue === '') {
-		setErrorFor(consulta, 'Completar asunto');
+		setErrorFor(consulta, 'Completar mensaje');
 		band=false;
 		
 	} else{
