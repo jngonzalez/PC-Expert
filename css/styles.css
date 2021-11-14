@@ -40,7 +40,7 @@ a {
 
 .container {
   display: grid;
-  grid-template-columns: 6fr 3.5fr;
+  grid-template-columns: 6fr 5fr;
   align-items: center;
 }
 
@@ -339,6 +339,7 @@ footer h3 {
 }
 
 footer a img {
+  padding: 0.5rem;
   height: 48px;
   width: 48px;
   transition: ease-in-out 0.2s;
@@ -348,7 +349,7 @@ footer a img:hover {
   transform: scale(1.07);
 }
 
-/* responsive */
+/*************** responsive ****************/
 @media screen and (max-width: 640px) {
   /*responsive hasta 640px*/
 
@@ -392,7 +393,7 @@ footer a img:hover {
   }
 }
 
-/************* servicios.html *************/
+/************* juegos.html *************/
 .services {
   /* height: 86rem; */
   /* max-height: 100rem; */
@@ -649,6 +650,8 @@ label {
   text-align: center;
 }
 
+/**** responsive ****/
+
 @media (max-width: 425px) {
   #mapa {
     width: 260px;
@@ -661,5 +664,74 @@ label {
 
   .caja-mapa p {
     font-size: 1.5em;
+  }
+}
+
+/********* encuesta.html *******/
+
+.caja-form-enc {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: solid rgba(0, 0, 0, 0.4) 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-control-e {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.form-control-e i {
+  padding-left: 1rem;
+  margin-right: 0rem;
+}
+
+.form-control-e p {
+  color: rgb(15, 185, 177);
+  font-weight: bold;
+}
+
+.form-control-e input {
+  margin-left: 1rem;
+}
+
+#botoncito2 {
+  background-color: rgb(15, 188, 179);
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  width: 45%;
+  cursor: pointer;
+  margin: 0px 20px 20px 20px;
+  padding: 10px;
+  transition: ease-in-out 0.2s;
+}
+#botoncito2:hover {
+  background: orangered;
+  transform: scale(1.05);
+}
+
+@media (max-width: 425px) {
+  .form-title {
+    font-size: 1.8em;
+  }
+
+  .form-control-e input {
+    font-size: 12px;
+    padding: 2%;
+  }
+
+  #botoncito2 {
+    font-size: 14px;
+    margin-left: 3%;
+    margin-top: 0%;
   }
 }
