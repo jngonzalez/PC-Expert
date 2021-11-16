@@ -431,10 +431,6 @@ footer a img:hover {
   min-height: 100%;
 }
 
-.back_darkish {
-  /* padding: 10px; */
-}
-
 .list_image {
   float: left;
   font-size: 12px;
@@ -718,6 +714,58 @@ label {
   background: orangered;
   transform: scale(1.05);
 }
+
+/****** RESULTADOS ****/
+.p_titulo {
+  color: orangered;
+  font-weight: bold;
+  text-align: left;
+}
+
+.resultados-box {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: solid rgba(0, 0, 0, 0.4) 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.p_descrip {
+  color: wheat;
+  font-weight: bold;
+  text-align: left;
+}
+
+.list_image_pc {
+  float: left;
+  font-size: 12px;
+  overflow: hidden;
+  width: 150px;
+  padding: 1rem 1rem;
+  object-fit: cover;
+}
+
+.list_image_pc img {
+  border-radius: 12px;
+  object-fit: cover;
+  width: 150px;
+  transition: ease-in-out 0.2s;
+  padding-bottom: 2.2rem;
+}
+
+.list_image_pc img:hover {
+  transform: scale(1.05);
+}
+
+.list_pc {
+  float: left;
+  text-align: right;
+  width: 27rem;
+}
+
+/***** responsive *****/
 
 @media (max-width: 425px) {
   .form-title {
