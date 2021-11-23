@@ -720,6 +720,7 @@ label {
   color: orangered;
   font-weight: bold;
   text-align: left;
+  display: none;
 }
 
 .resultados-box {
