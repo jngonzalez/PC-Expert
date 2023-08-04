@@ -469,7 +469,7 @@ footer a img:hover {
   color: cornsilk;
 }
 
-#botoncito {
+#boton_enviar {
   background-color: rgb(15, 188, 179);
   border: 1px solid white;
   border-radius: 4px;
@@ -484,7 +484,7 @@ footer a img:hover {
   transition: ease-in-out 0.2s;
 }
 
-#botoncito:hover {
+#boton_enviar:hover {
   background: orangered;
   transform: scale(1.05);
 }
@@ -618,7 +618,7 @@ label {
     padding: 2%;
   }
 
-  #botoncito {
+  #boton_enviar {
     font-size: 14px;
     margin-left: 3%;
     margin-top: 0%;
